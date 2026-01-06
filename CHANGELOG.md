@@ -1,49 +1,31 @@
 # Changelog
 
-## 0.2.6
+All notable changes to this project will be documented in this file.
 
-* **🔄 Changed:** Renamed internal classes for better code organization
-* **🔄 Changed:** Updated method names for better clarity and consistency
-* **📝 Docs:** Enhanced documentation with clearer descriptions
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 0.2.5
+## [1.0.0] - 2025-01-06
 
-* **✨ New:** Added title and message support for empty responses
-* **🔄 Changed:** Enhanced empty response handling with more descriptive information
-* **🔄 Changed:** Renamed internal classes for better code organization
-* **🔄 Changed:** Updated method names for better clarity and consistency
+### Added
+- Type-safe response wrapper for success and failure states
+- Pattern matching with `when` and `maybeWhen` methods
+- Transformation methods: `mapSuccess`, `mapFail`, and `andThen`
+- Utility methods: `unwrap`, `unwrapOr`, and `ensure`
+- Static utility methods: `traverse` and `sequence`
+- Support for async operations in `mapSuccess` and `andThen`
+- Static `throwFail` method for creating and throwing failures
+- Title and message support for empty responses
+- Platform-agnostic support (works with pure Dart projects)
+- Zero Flutter dependencies for Dart-only projects
+- All features from previous versions (0.1.0 - 0.2.6)
 
-## 0.2.4
-
-* **🔄 Changed:** Moved Flutter to dev_dependencies - now works with pure Dart projects with zero Flutter dependencies
-* **📝 Docs:** Enhanced documentation to highlight Dart compatibility
-* **🎨 Platform:** Added platform-agnostic support with improved package structure
-* **🔧 Chore:** Updated package metadata and topics
-
-## 0.2.3
-
-* **✨ New:** Added static `throwFail` method for creating and throwing failures in one step
-
-## 0.2.2
-
-* **🔄 Changed:** Renamed `throwFail` to `throwWhenFail` for better clarity
-
-## 0.2.1
-
-* **🔄 Changed:** Updated package description to be more concise
-* **📝 Docs:** Enhanced documentation with emojis and better formatting
-
-## 0.2.0
-
-* **✨ New:** Added support for async operations in `mapSuccess` and `andThen` methods
-* **🔄 Changed:** Updated function parameter names to be more descriptive in IDE tooltips
-* **📝 Docs:** Improved documentation with better examples and parameter names
-
-## 0.1.0
-
-* Initial release with core functionality
-* Added support for success and failure states
-* Added pattern matching with `when` and `maybeWhen`
-* Added transformation methods like `mapSuccess`, `mapFail`, and `andThen`
-* Added utility methods like `unwrap`, `unwrapOr`, and `ensure`
-* Added static utility methods `traverse` and `sequence`
+### Changed
+- Renamed internal classes for better code organization
+- Updated method names for better clarity and consistency
+- Enhanced documentation with clearer descriptions
+- Improved parameter names in IDE tooltips
+- Better empty response handling with descriptive information
+- Enhanced documentation formatting
+- Renamed `throwFail` to `throwWhenFail` for better clarity
+- Moved Flutter to dev_dependencies for Dart compatibility
