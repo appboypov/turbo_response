@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1
+
+* **🔄 Changed:** Updated GitHub repository URLs to appboypov organization.
+
+## 1.0.0
+
+* Version update to match pub.dev published version.
+
 ## 0.2.6
 
 * **🔄 Changed:** Renamed internal classes for better code organization
