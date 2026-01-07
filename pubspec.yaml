@@ -1,9 +1,9 @@
 name: turbo_response
 description: A type-safe response wrapper for handling success and failure states with pattern matching and utility methods.
 version: 1.0.0
-repository: https://github.com/codaveto/turbo_response
-issue_tracker: https://github.com/ultrawideturbodev/turbo_response/issues
-homepage: https://github.com/ultrawideturbodev/turbo_response
+repository: https://github.com/appboypov/turbo_response
+homepage: https://github.com/appboypov/turbo_response
+issue_tracker: https://github.com/appboypov/turbo_response/issues
 
 topics:
   - error-handling
